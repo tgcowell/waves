@@ -1,4 +1,4 @@
-## Waves Theme
+# Waves Theme
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
 
 Created by [Tim Cowell](https://github.com/tgcowell) for Home Assistant
@@ -12,9 +12,9 @@ These themes include
 
 I plan on continuing to develop this theme and would like to include light/dark for theme automations.
 
-## Installation
+# Installation
 
-# HACS Installation
+## HACS Installation
 
 Search for Waves within the community store & Install
 
