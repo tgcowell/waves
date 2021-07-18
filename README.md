@@ -62,10 +62,10 @@ https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=s
  - If you already have a themes folder, then just extract the waves folder into config/themes/
 3. Make sure the following is in your configuration.yaml folder
 
-`
+```
 frontend: 
   themes: !include_dir_merge_named themes
-`
+```
 4. Restart your Home Assistant server
 5. Select the theme in your user profile settings
 
