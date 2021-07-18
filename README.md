@@ -29,27 +29,65 @@ frontend:
 
 2. This theme uses 2 custom fonts via Google Fonts, you will need to add these as a resource in order to use the same fonts.
 
-  1. Click on configuration within Home Assistant
+  - Click on configuration within Home Assistant
 
-  2. Click on Lovelace Dashboards
+  - Click on Lovelace Dashboards
 
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/dashboard.png)
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/dashboard.png)
 
-  3. Click the Resources tab at the top
-
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/resources.png)
-
-  4. Click the + Add Resource button
-
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/+resource.png)
-
-  5. You will need to add the follow URL and set the resource type to Stylesheet, then click on create. 
-
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/newresource.png)
-
-    ```
-    https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=swap
+  - Click the Resources tab at the top
     
-    ```
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/resources.png)
+
+  - Click the + Add Resource button
+
+   ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/+resource.png)
+
+  - You will need to add the follow URL and set the resource type to Stylesheet, then click on create. 
+
+   ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/newresource.png)
+
+**URL To Copy**
+```
+https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=swap    
+```
 
 3. Once the above is complete, you will need to restart your Home Assistant server for the changes to come into affect. 
+
+## Manual Installation
+
+1. Download the themes folder from this repo
+2. Unzip the contents and extract the themes for into config/
+ - The above assumes you don't already have a themes folder, **if you do read below!**
+ - If you already have a themes folder, then just extract the waves folder into config/themes/
+3. Make sure the following is in your configuration.yaml folder
+
+`
+frontend: 
+  themes: !include_dir_merge_named themes
+`
+4. Restart your Home Assistant server
+5. Select the theme in your user profile settings
+
+
+## Automate theme
+
+If you would like to automate your theme so it is always Waves across any device, you can do this via an automation.
+
+1. Click on configuration
+2. Click on Automations
+3. Click + Add Automation
+4. Click - Start with an empty Automation"
+5. Change Name to "Theme - Set Default Theme"
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themename.png)
+7. Change trigger type to 'Home Assistant' & Event: start
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themtrigger.png)
+9. Scroll down to Action
+- Action Type: Call Service
+- Service: Home Assistant Frontend: Set Theme
+- Name: waves
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themeactions.png)
+
+
+
+
