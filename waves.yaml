@@ -1,4 +1,4 @@
-waves:
+waves/files:
 
   #Fonts
   primary-font-family: 'Raleway,sans-serif'
@@ -14,7 +14,7 @@ waves:
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves/background.png") fixed'
+  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves/files/background.png") fixed'
   # Main colors
   app-header-background-color: '#242e42'
   primary-color: "#2081C3"
@@ -78,21 +78,21 @@ waves:
   table-row-alternative-background-color: "#20293C"
   card-background-color: var(--primary-background-color)
   #Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/waves/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/waves/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/waves/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/waves/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/waves/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/waves/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/waves/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/waves/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/waves/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/waves/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/waves/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/waves/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/waves/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/waves/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/waves/exceptional.svg")
+  weather-icon-clear-night: url("/hacsfiles/themes/waves/files/clear-night.svg")
+  weather-icon-cloudy: url("/hacsfiles/themes/waves/files/cloudy.svg")
+  weather-icon-fog: url("/hacsfiles/themes/waves/files/fog.svg")
+  weather-icon-lightning: url("/hacsfiles/themes/waves/files/lightning.svg")
+  weather-icon-lightning-rainy: url("/hacsfiles/themes/waves/files/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/hacsfiles/themes/waves/files/partlycloudy.svg")
+  weather-icon-pouring: url("/hacsfiles/themes/waves/files/pouring.svg")
+  weather-icon-rainy: url("/hacsfiles/themes/waves/files/rainy.svg")
+  weather-icon-hail: url("/hacsfiles/themes/waves/files/hail.svg")
+  weather-icon-snowy: url("/hacsfiles/themes/waves/files/snowy.svg")
+  weather-icon-snowy-rainy: url("/hacsfiles/themes/waves/files/snowy-rainy.svg")
+  weather-icon-sunny: url("/hacsfiles/themes/waves/files/sunny.svg")
+  weather-icon-windy: url("/hacsfiles/themes/waves/files/windy.svg")
+  weather-icon-windy-variant: url("/hacsfiles/themes/waves/files/windy-variant.svg")
+  weather-icon-exceptional: url("/hacsfiles/themes/waves/files/exceptional.svg")
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
   # HACS
