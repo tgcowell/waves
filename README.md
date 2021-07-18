@@ -81,12 +81,13 @@ If you would like to automate your theme so it is always Waves across any device
 5. Change Name to "Theme - Set Default Theme"
 ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themename.png)
 7. Change trigger type to 'Home Assistant' & Event: start
-![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themtrigger.png)
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themetrigger.png)
 9. Scroll down to Action
 - Action Type: Call Service
 - Service: Home Assistant Frontend: Set Theme
 - Name: waves
-![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themeactions.png)
+
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themeaction.png)
 
 
 
