@@ -33,19 +33,19 @@ frontend:
 
   2. Click on Lovelace Dashboards
 
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/doc/dashboard.png)
+    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/dashboard.png)
 
   3. Click the Resources tab at the top
 
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/doc/resources.png)
+    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/resources.png)
 
   4. Click the + Add Resource button
 
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/doc/+resource.png)
+    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/+resource.png)
 
   5. You will need to add the follow URL and set the resource type to Stylesheet, then click on create. 
 
-    ![](https://raw.githubusercontent.com/tgcowell/waves/master/doc/newresource.png)
+    ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/newresource.png)
 
     ```
     https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=swap
