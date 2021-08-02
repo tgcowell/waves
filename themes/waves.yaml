@@ -17,7 +17,7 @@ waves:
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves/background.png") fixed'
   # Main colors
-  primary-color: "#1A6BA1"
+  primary-color: "rgba(41, 128, 185,1.0)"
   secondary-color: "#283E54"
   light-primary-color: "#CECECE"
   accent-color: "#2187CC"
@@ -29,7 +29,6 @@ waves:
   # Text colors
   primary-text-color: "#CECECE"
   text-primary-color: "#E5E5E5"
-  disabled-text-color: var(--disabled-color)
   secondary-text-color: "#BAC0C6"
   text-medium-light-color: '#A0A2A8'
   text-medium-color: '#80828A'
