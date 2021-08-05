@@ -1,7 +1,11 @@
 # Waves Theme
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
 
+Dark
 ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/main.png)
+
+Light
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/main-light.png)
 
 Created by [Tim Cowell](https://github.com/tgcowell) for Home Assistant
 This theme is a mixture of themes that I liked but wanted to adjust slightly to the design, look and feel I wanted. 
