@@ -87,7 +87,6 @@ waves-dark:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-color)
-  card-background-color: var(--primary-background-color)
   #Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/waves/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/waves/cloudy.svg")
@@ -213,7 +212,6 @@ waves-light:
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: rgba(189, 195, 199,0.15)
-  card-background-color: var(--primary-background-color)
   # Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/waves/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/waves/cloudy.svg")
