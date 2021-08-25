@@ -70,8 +70,7 @@ waves-dark:
   label-badge-red: var(--primary-color)
   label-badge-blue: var(--light-primary-color)
   # Cards colors
-  ha-card-background: rgba(34, 53, 72, 0.55)
-  card-background-color: var(--secondary-background-color)
+  ha-card-background: rgba(100, 100, 100, 0.15)
   paper-card-background-color: var(--ha-card-background)
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
