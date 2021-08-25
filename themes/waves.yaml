@@ -15,7 +15,7 @@ waves-dark:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves-dev/files/background.png") fixed'
+  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/background.png") fixed'
   # Main colors
   primary-color: rgba(41, 128, 185, 1.0)
   secondary-color: "#283E54"
@@ -139,7 +139,7 @@ waves-light:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves-dev/files/background-light.png") fixed'
+  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/background-light.png") fixed'
   # Main colors
   primary-color: rgba(41, 128, 185, 1)
   secondary-color: rgba(52, 152, 219, 1)
