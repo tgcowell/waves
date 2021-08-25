@@ -1,8 +1,8 @@
 waves-dark:
 
   #Fonts
-  primary-font-family: 'Ubuntu,sans-serif'
-  secondary-font-family: 'Oxygen,sans-serif'
+  primary-font-family: "Ubuntu,sans-serif"
+  secondary-font-family: "Oxygen,sans-serif"
   paper-font-common-base_-_font-family: "var(--secondary-font-family)"
   paper-font-common-code_-_font-family: "var(--secondary-font-family)"
   paper-font-body1_-_font-family: "var(--secondary-font-family)"
@@ -15,9 +15,9 @@ waves-dark:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves/background.png") fixed'
+  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves-dev/files/background.png") fixed'
   # Main colors
-  primary-color: "rgba(41, 128, 185,1.0)"
+  primary-color: rgba(41, 128, 185, 1.0)
   secondary-color: "#283E54"
   light-primary-color: "#CECECE"
   accent-color: "#2187CC"
@@ -30,15 +30,15 @@ waves-dark:
   primary-text-color: "#CECECE"
   text-primary-color: "#E5E5E5"
   secondary-text-color: "#BAC0C6"
-  text-medium-light-color: '#A0A2A8'
-  text-medium-color: '#80828A'
-  disabled-text-color: '#626569'
+  text-medium-light-color: "#A0A2A8"
+  text-medium-color: "#80828A"
+  disabled-text-color: "#626569"
   error-color: "#e74c3c"
   success-color: "#2ecc71"
   info-color: "#9b59b6"
   warning-color: "#f39c12"
   # Sidebar colors
-  sidebar-background-color: "rgba(34, 53, 72, 1)"
+  sidebar-background-color: rgba(34, 53, 72, 1)
   sidebar-icon-color: var(--light-primary-color)
   sidebar-text-color: var(--primary-text-color)
   sidebar-selected-background-color: var(--secondary-color)
@@ -70,7 +70,8 @@ waves-dark:
   label-badge-red: var(--primary-color)
   label-badge-blue: var(--light-primary-color)
   # Cards colors
-  ha-card-background: "rgba(100, 100, 100, 0.15)"
+  ha-card-background: rgba(34, 53, 72, 0.55)
+  card-background-color: var(--secondary-background-color)
   paper-card-background-color: var(--ha-card-background)
   paper-listbox-background-color: var(--primary-background-color)
   # Toggle button colors
@@ -121,11 +122,12 @@ waves-dark:
   codemirror-property: "#16a085"
 
 
+
 waves-light:
 
   #Fonts
-  primary-font-family: 'Ubuntu,sans-serif'
-  secondary-font-family: 'Oxygen,sans-serif'
+  primary-font-family: "Ubuntu,sans-serif"
+  secondary-font-family: "Oxygen,sans-serif"
   paper-font-common-base_-_font-family: "var(--secondary-font-family)"
   paper-font-common-code_-_font-family: "var(--secondary-font-family)"
   paper-font-body1_-_font-family: "var(--secondary-font-family)"
@@ -138,49 +140,49 @@ waves-light:
   # Change the value below 6px to 0px to remove the rounded corners
   ha-card-border-radius: 6px
   # Place the backgrounds in the folder  config/www/images/backgrounds 
-  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves/background-light.png") fixed'
+  lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/waves-dev/files/background-light.png") fixed'
   # Main colors
-  primary-color: "#2980b9"
-  secondary-color: "#3498db"
-  light-primary-color: "#ecf0f1"
-  accent-color: "#2187CC"
+  primary-color: rgba(41, 128, 185, 1)
+  secondary-color: rgba(52, 152, 219, 1)
+  light-primary-color: rgba(236, 240, 241, 1)
+  accent-color: rgba(33, 135, 204, 1)
   graph-color: var(--primary-color)
   primary-background-color: var(--light-primary-color)
   secondary-background-color: var(--light-primary-color)
-  divider-color: "#ecf0f1"
-  disabled-color: "#E8E9F3"
+  divider-color: var(--light-primary-color)
+  disabled-color: rgba(232, 233, 254, 1)
   # Text colors
-  primary-text-color: "rgba(52, 73, 94,1.0)"
-  text-primary-color: "#ecf0f1"
-  secondary-text-color: "rgba(52, 73, 94,0.7)"
-  text-medium-light-color: "rgba(149, 165, 166,0.5)"
-  text-medium-color: "rgba(149, 165, 166,1.0)"
+  primary-text-color: rgba(52, 73, 94,1.0)
+  text-primary-color: var(--light-primary-color)
+  secondary-text-color: rgba(52, 73, 94,0.7)
+  text-medium-light-color: rgba(149, 165, 166,0.5)
+  text-medium-color: rgba(149, 165, 166,1.0)
   disabled-text-color: var(--secondary-text-color)
-  error-color: "rgba(231, 76, 60,1.0)"
-  success-color: "rgba(46, 204, 113,1.0)"
-  info-color: "rgba(155, 89, 182,1.0)"
-  warning-color: "rgba(230, 126, 34,1.0)"
+  error-color: rgba(231, 76, 60,1.0)
+  success-color: rgba(46, 204, 113,1.0)
+  info-color: rgba(155, 89, 182,1.0)
+  warning-color: rgba(230, 126, 34,1.0)
   # Sidebar colors
-  sidebar-background-color: "#ecf0f1"
+  sidebar-background-color: var(--light-primary-color)
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-color)
   sidebar-selected-background-color: var(--secondary-color)
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--primary-text-color)
   # App Header
-  app-header-background-color: "#2980b9"
+  app-header-background-color: var(--primary-color)
   app-header-icon-color: var(--light-primary-color)
   app-header-text-color: var(--light-primary-color)
   app-header-selection-bar-color: var(--primary-color)
   app-header-selection-color: var(--primary-text-color)
   # Icons colors
-  state-icon-color: var(--app-header-background-color
-  state-icon-active-color: var(--primary-color)
-  state-icon-unavailable-color: var(--primary-background-color)
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--secondary-color)
+  state-icon-unavailable-color: var(--light-primary-color)
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
-  mini-media-player-progress-height: 8px
+  mini-media-player-progress-height: 12px
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -193,7 +195,8 @@ waves-light:
   label-badge-red: var(--primary-color)
   label-badge-blue: var(--light-primary-color)
   # Cards colors
-  ha-card-background: "rgba(236, 240, 241,0.7)"
+  ha-card-background: rgba(236, 240, 241,0.7)
+  card-background-color: var(--secondary-background-color)
   paper-card-background-color: var(--ha-card-background)
   paper-listbox-background-color: var(--ha-card-background)
   paper-item-icon-color: var(--primary-text-color)
@@ -209,9 +212,9 @@ waves-light:
   switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
   # Table colors
   table-row-background-color: var(--divider-color)
-  table-row-alternative-background-color: "rgba(189, 195, 199,0.15)"
+  table-row-alternative-background-color: rgba(189, 195, 199,0.15)
   card-background-color: var(--primary-background-color)
-  #Animated icons
+  # Animated icons
   weather-icon-clear-night: url("/hacsfiles/themes/waves/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/waves/cloudy.svg")
   weather-icon-fog: url("/hacsfiles/themes/waves/fog.svg")
