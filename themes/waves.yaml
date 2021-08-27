@@ -70,7 +70,7 @@ waves-dark:
   label-badge-red: var(--primary-color)
   label-badge-blue: var(--light-primary-color)
   # Cards colors
-  ha-card-background: rgba(34, 53, 72, 0.55)
+  ha-card-background: rgba(26, 40, 55, 0.5)
   card-background-color: var(--secondary-background-color)
   paper-card-background-color: var(--ha-card-background)
   paper-listbox-background-color: var(--primary-background-color)
@@ -104,7 +104,7 @@ waves-dark:
   weather-icon-windy-variant: url("/hacsfiles/themes/waves/windy-variant.svg")
   weather-icon-exceptional: url("/hacsfiles/themes/waves/exceptional.svg")
   # Shadown
-  ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
+  ha-card-box-shadow: '0px 0px 3px 0px #0d141c'
   # HACS
   hacs-badge-color: var(--primary-color)
   link-text-color: var(--disabled-color)
@@ -119,8 +119,6 @@ waves-dark:
   # Code Editor
   code-editor-background-color: "#2f3542"
   codemirror-property: "#16a085"
-
-
 
 waves-light:
 
