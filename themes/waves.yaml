@@ -119,6 +119,18 @@ waves-dark:
   # Code Editor
   code-editor-background-color: "#2f3542"
   codemirror-property: "#16a085"
+  mdc-text-field-fill-color: var(--primary-background-color)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-text-field-label-ink-color: var(--primary-text-color)
+  input-fill-color: var(--primary-background-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--primary-text-color)
+  input-hover-line-color: var(--primary-color)
 
 waves-light:
 
@@ -241,5 +253,17 @@ waves-light:
   # Code Editor
   code-editor-background-color: var(--light-primary-color)
   codemirror-property: "#16a085"
+  mdc-text-field-fill-color: var(--primary-background-color)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-text-field-label-ink-color: var(--primary-text-color)
+  input-fill-color: var(--primary-background-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--primary-text-color)
+  input-hover-line-color: var(--primary-color)
   # Misc
   scrollbar-thumb-color: var(--app-header-background-color)
