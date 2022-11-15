@@ -71,11 +71,12 @@ waves:
       label-badge-text-color: var(--primary-text-color)
       label-badge-red: var(--primary-color)
       label-badge-blue: var(--light-primary-color)
-      # Cards colors
+      # Cards colors / border
       ha-card-background: rgba(26, 40, 55, 0.5)
       card-background-color: var(--secondary-background-color)
       paper-card-background-color: var(--ha-card-background)
       paper-listbox-background-color: var(--primary-background-color)
+      ha-card-border-width: 0px
       # Toggle button colors
       paper-toggle-button-checked-button-color: var(--primary-color)
       paper-toggle-button-checked-bar-color: var(--light-primary-color)
@@ -205,12 +206,13 @@ waves:
       label-badge-text-color: var(--primary-text-color)
       label-badge-red: var(--primary-color)
       label-badge-blue: var(--light-primary-color)
-      # Cards colors
+      # Cards colors / border
       ha-card-background: rgba(236, 240, 241,0.7)
       card-background-color: var(--secondary-background-color)
       paper-card-background-color: var(--ha-card-background)
       paper-listbox-background-color: var(--ha-card-background)
       paper-item-icon-color: var(--primary-text-color)
+      ha-card-border-width: 0px
       # Toggle button colors
       paper-toggle-button-checked-button-color: var(--primary-color)
       paper-toggle-button-checked-bar-color: var(--light-primary-color)
