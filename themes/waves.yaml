@@ -19,7 +19,7 @@ waves:
       background-image: 'center / cover no-repeat url("/hacsfiles/themes/waves/background.png") fixed'
       lovelace-background: var(--background-image)
       # Main colors
-      primary-color: rgba(41, 128, 185, 1.0)
+      primary-color: rgba(41, 128, 185, 1)
       secondary-color: "#283E54"
       light-primary-color: "#CECECE"
       accent-color: "#2187CC"
@@ -56,6 +56,24 @@ waves:
       state-icon-color: var(--disabled-color)
       state-icon-active-color: var(--primary-color)
       state-icon-unavailable-color: var(--primary-background-color)
+      # Fix for HA 2022.12.4 and higher.
+      state-binary-sensor-alerting-color: "#2980B9"
+      state-binary-sensor-color: "#2980B9"
+      state-camera-color: "#2980B9"
+      state-cover-color: "#2980B9"
+      state-fan-color: "#2980B9"
+      state-group-color: "#2980B9"
+      state-input-boolean-color: "#2980B9"
+      state-light-color: "#2980B9"
+      state-media-player-color: "#2980B9"
+      state-person-home-color: "#2980B9"
+      state-person-not-home-color: "#2980B9"
+      state-person-zone-color: "#2980B9"
+      state-remote-color: "#2980B9"
+      state-script-color: "#2980B9"
+      state-switch-color: "#2980B9"
+      state-timer-color: "#2980B9"
+      state-vacuum-color: "#2980B9"
       # Settins and colors of Mini Media Player
       mini-media-player-icon-color: var(--primary-color)
       mini-media-player-accent-color: var(--primary-color)
@@ -191,6 +209,24 @@ waves:
       state-icon-color: var(--disabled-color)
       state-icon-active-color: var(--secondary-color)
       state-icon-unavailable-color: var(--light-primary-color)
+      # Fix for HA 2022.12.4 and higher.
+      state-binary-sensor-alerting-color: "#2980B9"
+      state-binary-sensor-color: "#2980B9"
+      state-camera-color: "#2980B9"
+      state-cover-color: "#2980B9"
+      state-fan-color: "#2980B9"
+      state-group-color: "#2980B9"
+      state-input-boolean-color: "#2980B9"
+      state-light-color: "#2980B9"
+      state-media-player-color: "#2980B9"
+      state-person-home-color: "#2980B9"
+      state-person-not-home-color: "#2980B9"
+      state-person-zone-color: "#2980B9"
+      state-remote-color: "#2980B9"
+      state-script-color: "#2980B9"
+      state-switch-color: "#2980B9"
+      state-timer-color: "#2980B9"
+      state-vacuum-color: "#2980B9"
       # Settins and colors of Mini Media Player
       mini-media-player-icon-color: var(--primary-color)
       mini-media-player-accent-color: var(--primary-color)
