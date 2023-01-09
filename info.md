@@ -1,5 +1,6 @@
 # Waves Theme
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/hacs/integration)
+[![HACS Action](https://github.com/tgcowell/waves/actions/workflows/HACS_Action.yml/badge.svg)](https://github.com/tgcowell/waves/actions/workflows/HACS_Action.yml)
 
 Dark
 ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/main.png)
@@ -60,6 +61,17 @@ https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=s
 
 3. Once the above is complete, you will need to restart your Home Assistant server for the changes to come into affect. 
 
+## Backgrounds & Animated Icons
+This theme includes 2 backgrounds (light and Dark) along with Animated weather icons, in order to use these please complete the following steps
+
+1. Create the follow folder 
+
+/config/www/waves/
+
+2. Download the images located within the themes folder, everything excluding waves.yaml
+
+3. Reload or Restart Home Assistant, your theme should now include the backgrounds and animated images.
+
 ## Manual Installation
 
 1. Download the themes folder from this repo
@@ -76,6 +88,8 @@ frontend:
 5. Select the theme in your user profile settings
 
 
+
+
 ## Automate theme
 
 If you would like to automate your theme so it is always Waves across any device, you can do this via an automation.
@@ -87,12 +101,13 @@ If you would like to automate your theme so it is always Waves across any device
 5. Change Name to "Theme - Set Default Theme"
 ![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themename.png)
 7. Change trigger type to 'Home Assistant' & Event: start
-![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themtrigger.png)
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themetrigger.png)
 9. Scroll down to Action
 - Action Type: Call Service
 - Service: Home Assistant Frontend: Set Theme
 - Name: waves
-![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themeactions.png)
+
+![](https://raw.githubusercontent.com/tgcowell/waves/master/docs/themeaction.png)
 
 
 
