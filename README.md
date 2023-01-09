@@ -61,6 +61,17 @@ https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=s
 
 3. Once the above is complete, you will need to restart your Home Assistant server for the changes to come into affect. 
 
+## Backgrounds & Animated Icons
+This theme includes 2 backgrounds (light and Dark) along with Animated weather icons, in order to use these please complete the following steps
+
+1. Create the follow folder 
+
+/config/www/waves/
+
+2. Download the images located within the themes folder, everything excluding waves.yaml
+
+3. Reload or Restart Home Assistant, your theme should now include the backgrounds and animated images.
+
 ## Manual Installation
 
 1. Download the themes folder from this repo
@@ -75,6 +86,8 @@ frontend:
 ```
 4. Restart your Home Assistant server
 5. Select the theme in your user profile settings
+
+
 
 
 ## Automate theme
