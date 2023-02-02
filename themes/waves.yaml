@@ -20,25 +20,25 @@ waves:
       lovelace-background: var(--background-image)
       # Main colors
       primary-color: rgba(41, 128, 185, 1)
-      secondary-color: "#283E54"
-      light-primary-color: "#CECECE"
-      accent-color: "#2187CC"
+      secondary-color: rgba(40, 62, 84, 1)
+      light-primary-color: rgba(206, 206, 206, 1)
+      accent-color: rgba(33, 135, 204, 1)
       graph-color: var(--primary-color)
-      primary-background-color: "#223548"
+      primary-background-color: rgba(34, 53, 72, 1)
       secondary-background-color: var(--primary-background-color)
-      divider-color: "#223548"
-      disabled-color: "#E8E9F3"
+      divider-color: rgba(34, 53, 72, 1)
+      disabled-color: rgba(232, 233, 243, 1)
       # Text colors
-      primary-text-color: "#CECECE"
-      text-primary-color: "#E5E5E5"
-      secondary-text-color: "#BAC0C6"
-      text-medium-light-color: "#A0A2A8"
-      text-medium-color: "#80828A"
-      disabled-text-color: "#626569"
-      error-color: "#e74c3c"
-      success-color: "#2ecc71"
-      info-color: "#9b59b6"
-      warning-color: "#f39c12"
+      primary-text-color: rgba(206, 206, 206, 1)
+      text-primary-color: rgba(229, 229, 229, 1)
+      secondary-text-color: rgba(186, 192, 198, 1)
+      text-medium-light-color: rgba(160, 162, 168, 1)
+      text-medium-color: rgba(128, 130, 138, 1)
+      disabled-text-color: rgba(98, 101, 105, 1)
+      error-color: rgba(231, 76, 60, 1)
+      success-color: rgba(46, 204, 113, 1)
+      info-color: rgba(155, 89, 182, 1)
+      warning-color: rgba(243, 156, 18, 1)
       # Sidebar colors
       sidebar-background-color: rgba(34, 53, 72, 1)
       sidebar-icon-color: var(--light-primary-color)
@@ -47,7 +47,7 @@ waves:
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--primary-text-color)
       # App Header
-      app-header-background-color: "#223548"
+      app-header-background-color: rgba(34, 53, 72, 1)
       app-header-icon-color: var(--light-primary-color)
       app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
@@ -56,27 +56,14 @@ waves:
       state-icon-color: var(--disabled-color)
       state-icon-active-color: var(--primary-color)
       state-icon-unavailable-color: var(--primary-background-color)
-      # Fix for HA 2022.12.4 and higher.
-      state-binary-sensor-alerting-color: "#2980B9"
-      state-binary-sensor-color: "#2980B9"
-      state-camera-color: "#2980B9"
-      state-cover-color: "#2980B9"
-      state-fan-color: "#2980B9"
-      state-group-color: "#2980B9"
-      state-input-boolean-color: "#2980B9"
-      state-light-color: "#2980B9"
-      state-media-player-color: "#2980B9"
-      state-person-home-color: "#2980B9"
-      state-person-not-home-color: "#2980B9"
-      state-person-zone-color: "#2980B9"
-      state-remote-color: "#2980B9"
-      state-script-color: "#2980B9"
-      state-sensor-battery-high-color: "#2980B9"
-      state-sensor-battery-low-color: "#2980B9"
-      state-sensor-battery-medium-color: "#2980B9"
-      state-switch-color: "#2980B9"
-      state-timer-color: "#2980B9"
-      state-vacuum-color: "#2980B9"
+      # Fix for 2023.01.25 and higher.
+      state-cover-open-color: var(--primary-color)
+      state-cover-opening-color: var(--primary-color)
+      state-cover-closing-color: var(--primary-color)
+      state-light-color: var(--primary-color)
+      state-light-on-color: var(--primary-color)
+      state-remote-on-color: var(--primary-color)
+      state-switch-on-color: var(--primary-color)
       # Settins and colors of Mini Media Player
       mini-media-player-icon-color: var(--primary-color)
       mini-media-player-accent-color: var(--primary-color)
@@ -212,27 +199,14 @@ waves:
       state-icon-color: var(--disabled-color)
       state-icon-active-color: var(--secondary-color)
       state-icon-unavailable-color: var(--light-primary-color)
-      # Fix for HA 2022.12.4 and higher.
-      state-binary-sensor-alerting-color: "#2980B9"
-      state-binary-sensor-color: "#2980B9"
-      state-camera-color: "#2980B9"
-      state-cover-color: "#2980B9"
-      state-fan-color: "#2980B9"
-      state-group-color: "#2980B9"
-      state-input-boolean-color: "#2980B9"
-      state-light-color: "#2980B9"
-      state-media-player-color: "#2980B9"
-      state-person-home-color: "#2980B9"
-      state-person-not-home-color: "#2980B9"
-      state-person-zone-color: "#2980B9"
-      state-remote-color: "#2980B9"
-      state-script-color: "#2980B9"
-      state-sensor-battery-high-color: "#2980B9"
-      state-sensor-battery-low-color: "#2980B9"
-      state-sensor-battery-medium-color: "#2980B9"
-      state-switch-color: "#2980B9"
-      state-timer-color: "#2980B9"
-      state-vacuum-color: "#2980B9"
+      # Fix for 2023.01.25 and higher.
+      state-cover-open-color: var(--primary-color)
+      state-cover-opening-color: var(--primary-color)
+      state-cover-closing-color: var(--primary-color)
+      state-light-color: var(--primary-color)
+      state-light-on-color: var(--primary-color)
+      state-remote-on-color: var(--primary-color)
+      state-switch-on-color: var(--primary-color)
       # Settins and colors of Mini Media Player
       mini-media-player-icon-color: var(--primary-color)
       mini-media-player-accent-color: var(--primary-color)
