@@ -64,7 +64,7 @@ https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=s
 ## Backgrounds & Animated Icons
 This theme includes 2 backgrounds (light and Dark) along with Animated weather icons, in order to use these please complete the following steps
 
-1. Create the follow folder 
+1. Create the following folder 
 
 /config/www/waves/
 
