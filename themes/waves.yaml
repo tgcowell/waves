@@ -64,6 +64,8 @@ waves:
       state-light-on-color: var(--primary-color)
       state-remote-on-color: var(--primary-color)
       state-switch-on-color: var(--primary-color)
+      # Fix for 2023.03 and higher.
+      state-light-active-color: var(--primary-color)
       # Settins and colors of Mini Media Player
       mini-media-player-icon-color: var(--primary-color)
       mini-media-player-accent-color: var(--primary-color)
@@ -207,6 +209,8 @@ waves:
       state-light-on-color: var(--primary-color)
       state-remote-on-color: var(--primary-color)
       state-switch-on-color: var(--primary-color)
+      # Fix for 2023.03 and higher.
+      state-light-active-color: var(--primary-color)
       # Settins and colors of Mini Media Player
       mini-media-player-icon-color: var(--primary-color)
       mini-media-player-accent-color: var(--primary-color)
